@@ -8,4 +8,8 @@ defmodule HelloPhoenix.PageController do
   def hello(conn, _params) do
     render conn, "hello.html"
   end
+
+  def gallery(conn, _params) do
+    render conn, "gallery.html"
+  end
 end
