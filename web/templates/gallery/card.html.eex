@@ -1,0 +1,14 @@
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="card">
+    <div class="card-block">
+      <h4 class="card-title"><%= @card.title %></h4>
+      <h6 class="card-subtitle text-muted"><%= @card.subtitle %></h6>
+    </div>
+    <img src="<%= @card.src %>">
+    <div class="card-block">
+      <p class="card-text"><%= @card.text %></p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+</div>

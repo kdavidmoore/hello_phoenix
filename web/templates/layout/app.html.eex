@@ -18,13 +18,13 @@
           href="<%= page_path @conn, :index %>">Home
           <%= if @conn.request_path == "/" do %>
             <span class="sr-only">(current)</span>
-          <%= end %>
+          <% end %>
         </a>
         <a class="nav-item nav-link<%= if @conn.request_path == "/gallery" do %> active<%= end %>"
           href="<%= gallery_path @conn, :index %>">Gallery
           <%= if @conn.request_path == "/gallery" do %>
             <span class="sr-only">(current)</span>
-          <%= end %>  
+          <% end %>  
         </a>
       </div>
     </nav>
