@@ -5,11 +5,14 @@ defmodule HelloPhoenix.Repo do
   
   def all(HelloPhoenix.Card) do
     [%HelloPhoenix.Card{id: "1", title: "First card.", subtitle: "This is the first card.",
-    text: "This is the main content.", src: "http://placehold.it/350x150"},
+    text: "This is the main content for the first card. There is lots of content here.",
+    src: "http://placehold.it/350x150"},
     %HelloPhoenix.Card{id: "2", title: "Second card.", subtitle: "This is the second card.",
-    text: "This is the main content.", src: "http://placehold.it/350x150"},
+    text: "This is the main content for the second card. There is lots of content here.",
+    src: "http://placehold.it/350x150"},
     %HelloPhoenix.Card{id: "3", title: "Third card.", subtitle: "This is the third card.",
-    text: "This is the main content.", src: "http://placehold.it/350x150"}]
+    text: "This is the main content for the third card. There is lots of content here.",
+    src: "http://placehold.it/350x150"}]
   end
 
   def all(_module), do: []
